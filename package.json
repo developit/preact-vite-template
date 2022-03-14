@@ -1,0 +1,45 @@
+{
+	"name": "preact-vite-template",
+	"version": "0.0.0",
+	"scripts": {
+		"start": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"preact": "^10.6.6",
+		"preact-iso": "^2.3.0"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.1.7",
+		"eslint": "^7.32.0",
+		"eslint-config-developit": "^1.2.0",
+		"eslint-config-prettier": "^8.5.0",
+		"postcss-nesting": "^10.1.3",
+		"prettier": "^2.5.1",
+		"vite": "^2.8.6"
+	},
+	"postcss": {
+		"plugins": {
+			"postcss-nesting": {}
+		}
+	},
+	"eslintConfig": {
+		"extends": [
+			"developit",
+			"prettier",
+			"plugin:prettier/recommended"
+		],
+		"plugins": [
+			"prettier",
+			"import"
+		]
+	},
+	"prettier": {
+		"singleQuote": true,
+		"trailingComma": "none",
+		"useTabs": true,
+		"printWidth": 120,
+		"arrowParens": "avoid"
+	}
+}

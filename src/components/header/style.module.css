@@ -1,0 +1,22 @@
+.header {
+	display: flex;
+	align-items: stretch;
+	justify-content: flex-start;
+	height: 3rem;
+	background: #444;
+	color: #fff;
+}
+
+.header a {
+	padding: 0.7rem;
+	font-size: 120%;
+	text-decoration: none;
+}
+.header a:hover,
+.header a:focus {
+	background: #666;
+}
+.header a[current] {
+	background: #fff;
+	color: #444;
+}

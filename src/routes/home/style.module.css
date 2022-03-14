@@ -1,0 +1,11 @@
+/**
+ * This is "Modular CSS", because the filename ends with `.module.css`.
+ * In CSS Modules, classes are scoped to your component by default.
+ * To use a class defined in your CSS, you must import its name:
+ *     import style from './style.module.css';
+ *     <div class={style.page}></div>
+ */
+
+.home {
+	padding: 50px;
+}

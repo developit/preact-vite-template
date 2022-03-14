@@ -1,0 +1,18 @@
+/** These are your app's global styles */
+
+html,
+body {
+	margin: 0;
+	background: #f4f4f4;
+	font: 100%/1.21 system-ui, helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+}
